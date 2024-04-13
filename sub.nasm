@@ -11,5 +11,5 @@ movw (%A), %D
 leaw $0, %A
 subw %D, (%A), %D
 
-leaw $2, %A
+leaw $2, %A 
 movw %D, (%A)
